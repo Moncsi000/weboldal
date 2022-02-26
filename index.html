@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>K-Drama</title>
+</head>
+<body>
+    <div class="container">
+      
+        <div id="icon" onclick ="menuToggle()"></div>
+<div id="navbar">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">K-Pop</a></li>
+            <li><a href="#">K-Drama</a></li>
+            <li><a href="szineszek.html" target="_blank">Színészek</a></li>
+            <li><a href="#">Hírek/Érdekességek</a></li>
+
+        </ul>
+    </nav>
+    
+</div>
+
+    </div>
+    <script type="text/javascript">
+function menuToggle(){
+var nav=document.getElementById('navbar');
+nav.classList.toggle('active');
+var nav=document.getElementById('icon');
+nav.classList.toggle('active');
+}
+    </script>
+</body>
+</html>
